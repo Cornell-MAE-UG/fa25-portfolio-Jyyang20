@@ -14,9 +14,9 @@ pressure/temperature and rejects heat to the room at high pressure/temperature.
 
 Increasing the evaporator temperature (i.e., the refrigerated space is allowed to be warmer, or the evaporator pressure is raised). This reduces the temperature lift between evaporator and condenser for a given condenser temperature.
 
-<img src="cycle.png" alt="Image of a refrigeration cycle">
+<img src="cycle1.png" alt="Image of a refrigeration cycle">
 
-<img src="equations.png" alt="Image of usable equations for a refrigeration cycle">
+<img src="equations1.png" alt="Image of usable equations for a refrigeration cycle">
 
 
 Immediate consequences:
