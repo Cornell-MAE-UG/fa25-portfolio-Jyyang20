@@ -1,1 +1,29 @@
+---
+layout: project
+title: Refrigerator Devices
+description: Class project with thermodynamic devices
+image: /assets/images/function-graph.png
+---
+Olivia Mei and Jason Yang
 
+A refrigerator uses a closed-loop vapor-compression cycle consisting of a compressor, condenser, 
+expansion valve, and evaporator. The refrigerant absorbs heat from inside the refrigerator at low 
+pressure/temperature and rejects heat to the room at high pressure/temperature.
+
+<img src="images/Screenshot 2025-11-24 171040.png" alt="Image of a refrigerator in real life and image of the diagram">
+
+Increasing the evaporator temperature (i.e., the refrigerated space is allowed to be warmer, or the evaporator pressure is raised). This reduces the temperature lift between evaporator and condenser for a given condenser temperature.
+
+<img src="cycle.png" alt="Image of a refrigeration cycle">
+
+<img src="equations.png" alt="Image of usable equations for a refrigeration cycle">
+
+
+Immediate consequences:
+	Lower compression ratio (compressor suction pressure increases ⇒ pressure ratio p_2/p_1falls). For a given compressor process the specific compressor work w_{in}=h_2-h_1typically decreases because the required pressure rise and corresponding enthalpy rise are smaller.
+	Refrigeration effect q_L=h_1-h_4generally increases per unit mass (because h_1, enthalpy of vapor leaving evaporator, rises with evaporator temperature), but the change in q_Ldepends on how the expansion and evaporation lines move; often the net result is modest increase in refrigeration effect per kg.
+	COP increases. Using {\rm COP}_R=\frac{q_L}{w_{in}}and the Carnot reference, rises as T_Lincreases (for fixed T_H). Because w_{in}falls and q_Loften increases or stays similar, COP improves.
+	Entropy generation effect: since the ideal reversible limit improves (Carnot COP increases), real device entropy generation per unit {\dot{Q}}_Loften reduces and the second law equation tends to decrease because 1/T_Ldecreases and required {\dot{Q}}_Hfor same {\dot{Q}}_Lis lower when compressor work falls.
+Net performance impact:
+	For the same cooling load {\dot{Q}}_L: compressor power {\dot{W}}_{in}required is smaller ⇒ COP increases ⇒ electricity consumption falls.
+	For a fixed compressor speed (i.e., same \dot{m}): raising T_Lmay change {\dot{Q}}_L(cooling capacity). If {\dot{Q}}_Lrises, you might overshoot the desired temperature; a control system would reduce mass flow or compressor speed to match setpoint resulting in better part-load efficiency.
