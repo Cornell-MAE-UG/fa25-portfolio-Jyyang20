@@ -1,8 +1,7 @@
---
+---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
+title: Client Outline
+description: Outline for Spotted Lantern Fly Clients
 image: /assets/images/function-graph.png
 ---
 
