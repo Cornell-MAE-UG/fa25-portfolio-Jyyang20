@@ -42,8 +42,6 @@ Build a scaled mechanical prototype with 3–4 arms and lever linkage. Test crus
 - How tall are average grapevines, and can an average worker reach the required height? *Decision affected:* Frame size and tool adjustability  
 - Where are egg clusters most commonly located on a grapevine? *Decision affected:* Arm spacing and tool positioning
 
-\newpage
-
 ## References
 
 - Ohio Dept. of Agriculture, “Spotted Lanternfly Best Management Practices.” http://agri.ohio.gov/divisions/plant-health/invasive-pests/slf-bmp  
