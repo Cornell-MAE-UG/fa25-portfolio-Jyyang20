@@ -1,5 +1,7 @@
 
 --
+layout: project
+title: Client Outline
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
