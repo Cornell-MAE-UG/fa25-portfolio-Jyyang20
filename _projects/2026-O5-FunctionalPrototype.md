@@ -189,13 +189,6 @@ Reliable egg mass removal with low effort and high durability.
 
 ---
 
-View our [Functional Prototype]({{ "/assets/SLF/ODP5.pdf" | relative_url }}) in PDF format.---
-layout: project
-title: Sorry Little Fly - ODP
-description: Prototyping a mechanical device for MAE2250 in order to address the problem of the invasive Spotted Lantern Fly species in NY, particularly in upstate NY vineyards.
-technologies: []
-image: /assets/images/SquashedSLF.png
-
 ---
 <div style="display:flex; align-items:center; gap:40px; margin:30px 0;">
 
