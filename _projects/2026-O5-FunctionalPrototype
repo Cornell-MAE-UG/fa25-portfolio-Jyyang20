@@ -1,6 +1,200 @@
 ---
 layout: project
 title: Sorry Little Fly - ODP
+description: Prototyping a mechanical device for MAE2250 to address the invasive Spotted Lantern Fly in NY vineyards
+image: /assets/images/SquashedSLF.png
+---
+
+# Stopping Little Flies
+
+**Team:** Sorry Little Fly  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+
+---
+
+## Client Pitch
+
+Download this [Client Proposal]({{ "/assets/SLF/ClientProp.pdf" | relative_url }}) in PDF format.
+
+## Problem statement
+Spotted lanternflies reproduce rapidly; each female lays 3 egg masses of 30–60 eggs, allowing populations to explode in a single season. SLFs feed on sap, weakening vines, reducing cold hardiness, and potentially killing plants. Current removal methods are labor-intensive, inconsistent, and risk damaging vines.  
+
+**Impact:** Destroying egg masses reduces SLF reproduction, lowering seasonal infestations and protecting yield and vine health. A plant-safe, scalable tool could be used across vineyards and other sites.
+
+---
+
+### Concept A (primary): Radial Compression Mechanism
+
+**What it is:**  
+A handheld circular frame fits around the vine, positioning radially arranged claws over each egg mass. A manual lever converts input force into uniform inward radial compression.
+
+**How it would be used:**
+- Place frame around vine and align claws  
+- Pull lever to compress inward  
+- Release and reposition  
+- Repeat for all egg masses  
+
+**Why it’s better than the status quo:**
+- Consistent force vs. manual scraping  
+- Reduced bark damage via radial loading  
+- Chemical-free  
+- Faster and repeatable  
+
+**End-of-semester proof-of-concept:**  
+Scaled prototype with 3–4 arms; test force and plant safety.
+
+**Key risks / unknowns**
+- Excessive force damaging bark  
+- Incomplete egg destruction  
+- Ergonomic / usability limitations  
+
+**Questions for the client**
+- Is crushing sufficient or must eggs be removed?  
+- Required force for reliable destruction?  
+- Typical vine height?  
+- Typical egg cluster locations?  
+
+---
+
+## References
+- Ohio Dept. of Agriculture – SLF Best Practices  
+- Penn State Extension – Egg Mass Removal  
+
+---
+
+## Functional Prototype
+
+The prototype was built to evaluate whether the mechanism can reliably compress and remove egg masses.
+
+---
+
+### Design Documentation
+
+**Components:**
+- RPL printed: gears, blades, baseplate, housing  
+- McMaster: pulley (1.5" OD, 0.25" ID), aluminum rod  
+- Fasteners: M3 screws + washers  
+- Twine for actuation  
+
+---
+
+### Assembly
+
+**Main Assembly:**
+- Align fins and gear  
+- Attach to baseplate with M3 screws  
+- Assemble housing and secure  
+
+**Rod Assembly:**
+- Cut rod  
+- Attach gear and pulley  
+- Insert into housing  
+- Attach twine  
+
+---
+
+### Design Tests
+
+#### 1. Force Required Test
+
+**How it was tested:**  
+Spring force gauge attached to pulley; measured opening and closing forces across multiple trials.
+
+**What happened:**  
+- Open: 5–7 N  
+- Close: 10–12 N  
+- Within acceptable ergonomic range  
+- Higher closing force suggests friction/misalignment  
+
+**Design Changes:**
+- Enclose gear casing  
+- Add bushings/bearings  
+- Lubricate moving parts  
+
+---
+
+#### 2. Egg Mass Removal Effectiveness
+
+**How it was tested:**  
+Mock vine + paper-mâché egg masses to simulate adhesion and geometry.
+
+**What happened:**  
+- Successfully removed egg masses  
+- Vine model tore (conservative test case)  
+- Real vines expected to perform better  
+
+**Design Changes:**
+- Sharper/textured edges  
+- Add compliance (spring/flex pad)  
+- Add centering guide  
+
+---
+
+#### 3. Repeated Use
+
+**How it was tested:**  
+40 total cycles with varying force directions.
+
+**What happened:**  
+- Mechanism remained functional  
+- String detached from pulley  
+- Gear disengagement under angled force  
+
+**Design Changes:**
+- Redesign pulley-string interface  
+- Constrain gear motion to rotation only  
+- Improve robustness of connections  
+
+---
+
+#### 4. Variable Radial Distances
+
+**How it was tested:**  
+Tested across branch diameters: 1", 0.5", 0.2"
+
+**What happened:**  
+- Consistent contact but low coverage (~7–8%)  
+- Insufficient circumference engagement  
+
+**Design Changes:**
+- Increase number of fins  
+- Improve fin geometry  
+- Introduce compliant materials  
+- Default open-state mechanism with spring return  
+
+---
+
+## Success Criteria
+
+**Context:**  
+Reliable egg mass removal with low effort and high durability.
+
+**Criteria:**
+- 5–15 N operating force  
+- High egg removal success rate  
+- Consistent radial contact  
+- Reliable over repeated cycles  
+- Stable and easy assembly  
+
+**Exhibit-Day Focus:**
+- Repeated-use durability  
+- Demonstrable egg removal effectiveness  
+
+---
+
+## Steps Toward Final Prototype
+
+- Fully enclosed gear casing  
+- Improved pulley attachment + ergonomic handle  
+- Add compliance for better contact  
+- Increase surface coverage  
+- Add telescoping handle for reach  
+
+---
+
+View our [Functional Prototype]({{ "/assets/SLF/ODP5.pdf" | relative_url }}) in PDF format.---
+layout: project
+title: Sorry Little Fly - ODP
 description: Prototyping a mechanical device for MAE2250 in order to address the problem of the invasive Spotted Lantern Fly species in NY, particularly in upstate NY vineyards.
 technologies: []
 image: /assets/images/SquashedSLF.png
