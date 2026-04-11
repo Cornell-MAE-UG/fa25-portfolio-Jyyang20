@@ -331,6 +331,3 @@ The gear shell will be redesigned with a fully enclosed casing to prevent diseng
 The current pulley-string interface failed under repeated use, so a more robust attachment method is required. The pulley will be redesigned (and RPL printed) to include a built-in retention feature. In parallel, the actuation method will evolve from a simple pull-string into a more ergonomic input system. A handle-based or squeeze mechanism will be explored to increase user comfort and maintain a constant force magnitude/direction. 
 To improve performance across varying branch diameters and irregular geometries, a compliant element will be incorporated into the blade system to maintain consistent pressure even if the vine is not aligned. 
 To prepare the device for real-world vineyard use, a telescoping handle will be added for extended reach and will provide a lightweight but rigid structure for portability. 
-
-
-View our [Functional Prototype]({{ "/assets/SLF/ODP5.pdf" | relative_url }}) in PDF format.
