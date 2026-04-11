@@ -216,8 +216,6 @@ image: /assets/images/SquashedSLF.png
 
 ## <span style="background-color:#97bfcc; padding:6px 14px; border-radius:8px;">Client Pitch</span> {#client-pitch}
 
-Download this [Client Proposal]({{ "/assets/SLF/ClientProp.pdf" | relative_url }}) in PDF format.
-
 **Team:** Sorry Little Fly  
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
