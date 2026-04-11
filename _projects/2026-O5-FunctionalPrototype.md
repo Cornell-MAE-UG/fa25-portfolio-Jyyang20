@@ -2,7 +2,6 @@
 layout: project
 title: Sorry Little Fly - ODP
 description: Prototyping a mechanical device for MAE2250 to address the invasive Spotted Lantern Fly in NY vineyards
-image: /assets/images/SquashedSLF.png
 ---
 
 # Stopping Little Flies
