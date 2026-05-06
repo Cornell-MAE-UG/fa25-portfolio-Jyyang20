@@ -24,7 +24,7 @@ image: /assets/SLF.png
 
 ## <span style="background-color:#97bfcc; padding:6px 14px; border-radius:8px;">Client Pitch</span> {#client-pitch}
 
-Download this [Client Proposal]({{ "/assets/SLF/ClientProp.pdf" | relative_url }}) in PDF format.
+Download this [Client Proposal]({{ "/assets/Doc1.pdf" | relative_url }}) in PDF format.
 
 **Team:** Sorry Little Fly  
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
@@ -172,7 +172,7 @@ To improve performance across varying branch diameters and irregular geometries,
 To prepare the device for real-world vineyard use, a telescoping handle will be added for extended reach and will provide a lightweight but rigid structure for portability. 
 
 
-View our [Functional Prototype]({{ "/assets/SLF/ODP5.pdf" | relative_url }}) in PDF format.
+View our [Functional Prototype]({{ "/assets/Doc2.pdf" | relative_url }}) in PDF format.
 
 ___
 
@@ -248,4 +248,4 @@ During this group process, there were instances of absence and illness that limi
 * <https://pmc.ncbi.nlm.nih.gov/articles/PMC10926464/>
 
 
-View our [Exhibit Poster]({{ "/assets/SLF/ClientReport.pdf" | relative_url }}) in PDF format.
+View our [Exhibit Poster]({{ "/assets/Doc3.pdf" | relative_url }}) in PDF format.
